@@ -96,7 +96,16 @@ MONGO_PASSWORD='password'
 
 **Sistem ini mendukung multi secondary node**
 
-//TODO
+![](.github/secondary.png)
+
+* Buka halaman "Secondary Nodes"
+* Tekan tombol "TAMBAH"
+* Sesuaikan isian dengan kredensial client secondary (tbd-client-webserver)
+  * default port: `3000`
+  * default email: `rochim.noviyan@gmail.com`
+  * default password: `password`
+* Tekan tombol "TAMBAH"
+
 
 
 ### Backup Script
