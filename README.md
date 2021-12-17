@@ -1,4 +1,4 @@
-# Web monitoring custom log shipping
+# Script (primary) custom log shipping
 
 ## Panduan Pemasangan
 
@@ -94,6 +94,15 @@ MONGO_PASSWORD='password'
 
 6. Konfigurasi secondary nodes melalui [web monitor](https://github.com/rochimfn/tbd-server-webserver)
 
-**Sistem ini hanya mendukung multi secondary node**
+**Sistem ini mendukung multi secondary node**
 
 //TODO
+
+
+### Backup Script
+
+Script dapat dijalankan dengan perintah berikut:
+
+```
+node script.js log
+```
